@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest __Test__/**/*.spec.js"
+    "functional-test": "jest __Test__/functional/*.spec.js",
+    "contract-test": "jest __Test__/contract/*.spec.js"
   },
   "keywords": [],
   "author": "",
